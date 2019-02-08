@@ -1,0 +1,328 @@
+/*   <!-- DEBUT entête avec logo et navbar -->*/
+
+img.logo{
+	height: 10vh;
+}
+
+#navbarNav{
+	font-family: 'Titillium Web', sans-serif;
+	text-transform: uppercase;
+	padding-right: 10vh;
+}
+
+.navbar{
+	width: 100%;
+	height: 15vh;
+	background-color: #E9967A
+}
+
+/*<!-- FIN entête avec logo et navbar -->*/
+
+
+/*<!-- DEBUT Partie 1 logo menu -->*/
+
+header{
+	width: 100%;
+	height: 100vh;
+	background-color: #E9967A
+}
+
+.nomLogo{
+	width: 100%;
+	height: 80vh;
+	padding-top: 30vh;
+}
+
+.nomPhrase{
+	width: 100%;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+}
+
+.phrase1{
+	font-weight: bold;
+}
+
+.phrase2{
+	font-size: 30px;
+	   margin-bottom: 0;
+}
+
+.icone{
+	width: 100%;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 20vh;
+}
+
+/*<!-- FIN Partie 1 logo menu -->*/
+
+
+/*****<!-- DEBUT Partie 2 A propos et icone -->*****/
+
+
+.partie2{
+	width: 100%;
+	height: 100vh;
+}
+
+.aPropos{
+	height: 70vh;
+	display: block;
+	text-align: center;
+	font-family: Rubik, sans-serif;
+	padding: 70px;
+}
+
+.aPropos h2{
+	padding: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.aPropos p{
+	font-size: 12px;
+	margin-bottom: 0;
+}
+
+.signature{
+	padding: 20px;
+}
+
+/*********DEBUT icone et descriptif pour nous********/
+
+
+.nous{
+	width: 100%;
+	height: 30vh;
+	background-color: #124660;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+/*****<!-- FIN Partie 2 A propos et icone -->*****/
+
+
+
+
+/*******<!-- DEBUT mes projets -->***********/
+
+.part4{
+	width: 100%;
+	height: 210vh;
+}
+
+.projets{
+	width: 100%;
+	height: 30vh;
+	text-align: center;
+ /* top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);*/
+/*  	padding-top: 40px;*/
+}
+
+.projets h2{
+	padding: 20px;
+    padding-top: 60px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Rubik, sans-serif;
+}
+
+.projets p{
+	font-size: 12px;
+	font-family: Rubik, sans-serif;
+	margin-bottom: 0;
+}
+
+div.book{
+	width: 100%;
+	height: 180vh;
+	display: flex;
+	position: relative;
+	padding-left: 5vh;
+}
+
+.colonne1{
+	width: calc(100% / 3);
+	flex-direction: column;
+}
+
+#p1{
+	margin-bottom: 20px;
+	height: 40vh;
+}
+
+#p1:hover{
+	filter: brightness(50%);
+	
+}
+
+#p2{
+	margin-bottom: 20px;
+	height: 40vh;
+}
+
+#p2:hover{
+	filter: brightness(50%);
+}
+
+#p3{
+	margin-bottom: 20px;
+	height: 83.5vh;
+	
+}
+
+#p3:hover{
+	filter: brightness(50%);
+}
+
+.colonne2{
+	width: calc(100% / 3);
+	flex-direction: column;
+}
+
+#p4{
+	margin-bottom: 20px;
+	height: 83.5vh;
+	
+}
+
+#p4:hover{
+	filter: brightness(50%);
+}
+
+#p5{
+	margin-bottom: 20px;
+	height: 40vh;
+	
+}
+
+#p5:hover{
+	filter: brightness(50%);
+}
+
+#p6{
+	height: 40vh;
+	
+}
+
+#p6:hover{
+	filter: brightness(50%);
+}
+
+.colonne3{
+	width: calc(100% / 3);
+	flex-direction: column;
+}
+
+#p7{
+	margin-bottom: 20px;
+	height: 40vh;
+}
+
+#p7:hover{
+	filter: brightness(50%);
+}
+
+#p8{
+	margin-bottom: 20px;
+	height: 83.5vh;
+	
+}
+
+#p8:hover{
+	filter: brightness(50%);
+}
+
+#p9{
+	height: 40vh;
+	
+}
+
+#p9:hover{
+	filter: brightness(50%);
+}
+
+
+.taille1{
+	width: 90%;
+/*	height: 35vh;*/
+	height: 25%;
+}
+
+.taille2{
+	width: 90%;
+/*	height: 70vh;*/
+	height: 50%
+}
+
+.colonne1 div{
+	position: relative;
+}
+
+span{
+	display: none;
+}
+
+
+
+/*span{
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-family: Titillium Web, sans-serif;
+  	font-size: 25px;
+  	color: rgba(255,255,255,0);
+  	background-color: rgba(0,0,0,0);
+  	/*padding: 10px;*/
+/*}*/
+/*
+.colonne1 div:hover span{
+	color: rgba(255,255,255,1);*/
+	/*background-color: rgba(0,0,0,0.5);*/
+/*}*/
+
+
+
+/*******<!-- FIN mes projets -->***********/
+
+
+/******<!-- DEBUT  me contacter -->*******/
+
+div.contact{
+	width: 100%;
+	height: 60vh;
+	background-color: #124660;
+	display: block;
+	justify-content: center;
+	font-family: Rubik, sans-serif;
+	white-space: pre;
+	text-align: center;
+	padding: 40px;
+}
+
+.vous{
+	font-size: 30px;
+	font-style: italic;
+}
+
+.agence{
+	font-size: 20px;
+	font-style: italic;
+}
+
+.moi{
+	font-size: 30px
+	text-transform: uppercase;
+}
+
+
+
+
+/*<!-- FIN me contacter -->

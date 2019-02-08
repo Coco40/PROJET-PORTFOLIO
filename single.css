@@ -1,0 +1,107 @@
+/*   <!-- DEBUT entête avec logo et navbar -->*/
+
+img.logo{
+	height: 10vh;
+}
+
+#navbarNav{
+	font-family: 'Titillium Web', sans-serif;
+	text-transform: uppercase;
+	padding-right: 10vh;
+}
+
+.navbar{
+	width: 100%;
+	height: 15vh;
+	background-color: #E9967A
+}
+
+/*<!-- FIN entête avec logo et navbar -->*/
+
+
+
+/*<!-- DEBUT partie 1 détail d'une des photos -->*/
+
+.integration{
+	width: 100%;
+	height: 50vh;
+	background-color: #E6E6FA;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 0;
+}
+
+.typo{
+	font-family: 'Rubik', sans-serif;
+	padding-right: 15vh;
+    padding-left: 15vh;
+}
+
+p{
+	font-size: 12px;
+	text-align: justify;
+}
+
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/*<!-- FIN partie 1 détail d'une des photos -->*/
+
+
+
+
+/*<!-- DEBUT partie 2 une photo -->*/
+
+/*.plage{
+	width: 100%;
+	height: 100vh;
+}*/
+
+.plage4{
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+}
+
+/*<!-- FIN partie 2 une photo -->*/
+
+
+/*<!-- DEBUT entre 2 image et bas de page avec icone -->*/
+
+.precedent-suivant{
+	width: 100%;
+	height: 10vh;
+	font-family: 'Titillium Web', sans-serif;
+	padding-top: 2vh
+
+}
+
+/*<!-- FIN entre 2 image et bas de page avec icone -->*/
+
+
+/*<!-- DEBUT bas de page -->*/
+
+.bas{
+	width: 100%;
+	height: 20vh;
+	background-color: #124660;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.icone{
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+}
+
+.copy{
+	font-size: 10px;
+}
+
+/*<!-- FIN bas de page -->*/

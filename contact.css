@@ -1,0 +1,62 @@
+/*<!-- DEBUT entête avec logo et navbar -->*/
+
+.logo{
+	height: 10vh;
+}
+
+#navbarNav{
+	font-family: 'Titillium Web', sans-serif;
+	text-transform: uppercase;
+	padding-right: 10vh;
+}
+
+
+
+.navbar{
+	width: 100%;
+	height: 15vh;
+	background-color: #E9967A
+}
+/*<!-- FIN entête avec logo et navbar -->*/
+
+.contact{
+	width: 100%;
+	height: 60vh;
+}
+
+.contactInfo{
+	font-family: 'Rubik', sans-serif;
+}
+
+
+/*<!-- DEBUT bas de page -->*/
+
+.bas{
+	width: 100%;
+	height: 20vh;
+	background-color: #124660;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.icone{
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+}
+
+.copy{
+	font-size: 10px;
+}
+
+.basPage{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+
+
+/*<!-- FIN bas de page -->*/
